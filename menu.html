@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>The Street Food Fighter Menu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function() {
+			$("#submit").click(function() {
+				var email = $("#email").val();
+				var subject = $("#subject").val();
+				var message = $("#message").val();
+				var url = "mailto:thestreetfoodfighter@gmail.com?subject="+subject+" - " +email+"&body="+message;
+				console.log(url);
+				window.location.href = url;
+			});
+		});
+		</script>
+	</head>
+	<body class="left-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo">Our Food Fighting Menu</h1>
+							<p>MOBILE FOOD UNIT SERVING FUSION STREET FOOD.</p>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a class="icon fa-home" href="index.html"><span>Home</span></a></li>
+									<li><a href="menu.html" class="icon fa-bars"><span>Menu</span></a></li>
+									<li><a class="icon fa-picture-o" href="gallery.html"><span>Gallery</span></a></li>
+									<li><a class="icon fa-map-marker" href="location.html"><span>Locations</span></a></li>
+									<li><a class="icon fa-phone" href="#footer-wrapper"><span>Contact Us</span></a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+						<div class="row">
+
+							<!-- Sidebar -->
+								<div id="sidebar" class="4u 12u(mobile)">
+
+									<!-- Excerpts -->
+										<section>
+											<ul class="divided">
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<h3><a href="#">Egg Rolls 3/$4.00</a></h3>
+															</header>
+															<p>Our family recipe! Hand rolled Egg Rolls filled with minced pork, cabbage, onions, carrots, glass noodles, and fried crispy!<br>Served with your choice of sauces!<br><small>*Ask about large orders & catering.</small></p>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<h3><a href="#">Sticky Rice & Chicken $8.00</a></h3>
+															</header>
+															<p>Grilled chicken marinated in oyster and soy sauce, lemon grass, and garlic!<br>Served with fresh sticky rice, fresh cucumbers, and carrots!<br>Served with your choice of sauces!</p>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<h3><a href="#">Thai Steak Tacos 2/$6.00</a></h3>
+															</header>
+															<p>Our take of the infamous Taco de carne with a Thai twist!<br>Steak marinated in fresh lime juice, garlic, lemon grass, salt and pepper. Grilled fresh and stuffed in corn tortillas, topped with white cheese, cilantro and our house Thai influenced salsa!<br>Simple & delicious!<br>*Flour Tortillas also available.<br>*Chicken substitute $5.00</p>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<h3><a href="#">Soft Nachos $5.00</a></h3>
+															</header>
+															<p>Soft flour tortilla chips, fried to a light crisp then topped with nacho cheese, seasoned ground beef, jalapeños & green onions!<br>Served with our house Thai influenced salsa!</p>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<h3><a href="#">Soda or Bottled Water $1.00</a></h3>
+															</header>
+														</article>
+
+												</li>
+											</ul>
+										</section>
+								</div>
+
+							<!-- Content -->
+								<div id="content" class="8u 12u(mobile) important(mobile)">
+
+									<!-- Post -->
+										<article class="box post">
+											<header>
+												<h2>Photos of our featured food in our grand opening menu</h2>
+											</header>
+											<h3>Family recipe Fried Egg Rolls Fried in person, fresh!</h3>
+											<span class="image featured"><img src="images/eggroll.jpg" alt="Egg rolls" /></span>
+											<h3>Fried steak, tortilla wraps, and Thai influenced Salsa!</h3>
+											<span class="image featured"><img src="images/cookingtaco.jpg" alt="Egg rolls" /></span>
+											<h3>Soft Nachos</h3>
+											<span class="image featured"><img src="images/nacho.jpg" alt="Egg rolls" /></span>
+										</article>
+
+								</div>
+
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				
+					<div id="copyright" class="container">
+						<ul class="links">
+							<li>&copy; TheStreetFoodFighter. All rights reserved.</li><!--<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>-->
+						</ul>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
